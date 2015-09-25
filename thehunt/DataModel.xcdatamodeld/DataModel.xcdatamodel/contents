@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8193.2" systemVersion="14E46" minimumToolsVersion="Xcode 7.0">
+    <entity name="SaveGame" representedClassName=".SaveGame" syncable="YES">
+        <attribute name="loser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scoreLoser" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="scoreWinner" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="winner" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SaveGame" positionX="-63" positionY="-18" width="128" height="105"/>
+    </elements>
+</model>
